@@ -19,8 +19,14 @@
 
 #include <stdint.h>
 
+unsigned int years = 0;
+signed short days = 0;
+
 int main(void)
 {
+	years = 10;
+	days = 365;
+
     /* Loop forever */
 	while(1){
 
