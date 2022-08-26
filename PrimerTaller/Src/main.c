@@ -19,13 +19,52 @@
 
 #include <stdint.h>
 
-unsigned int years = 0;
-signed short days = 0;
+unsigned char variable1 = 0;
+
+uint8_t variable2 = 0;
+
+uint32_t variable3 = 0;
+
+int8_t variable4 = 0;
+
+uint8_t x,y,z;
+
+int16_t m = 2, n = 3, t =-5;
+
+char MiPrimerString[5] = "Linux";
+
+char MiprimerCaracter = 'A';
+
+uint8_t variable5 = 0; int32_t variable6 = 0;
 
 int main(void)
 {
-	years = 10;
-	days = 365;
+
+	//Esta es una prueba
+	char sizechar = sizeof(variable6);
+
+	char sizeMiPrimerString = sizeof(MiPrimerString);
+
+	(void) sizechar;
+
+	(void) sizeMiPrimerString;
+
+	m = m + n;
+	m += n;
+
+	m = m + 1;
+	m += 1;
+	m ++;
+
+	m *= n;
+	m /= n;
+	m %= n;
+
+	m <<= n;
+	m >>= n;
+
+
+
 
     /* Loop forever */
 	while(1){
